@@ -35,5 +35,6 @@ function generatePassword(){
 function copyPassword(){
 
     navigator.clipboard.writeText(novasenha)
+    setInterval(alert("Copiado"), 3000)
 }
 
